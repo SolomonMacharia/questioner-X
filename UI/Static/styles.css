@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    margin-bottom: 70px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #ddd;
 }
@@ -109,10 +110,11 @@ input[type=text]:focus, input[type=password]:focus {
     background: white;
     outline: none;
 }
-/* hr {
-    border: 1px solid #f1f1f1;
-    margin-bottom: 25px; */
-/* } */
+.container hr {
+    color: black;
+    /* border: 1px solid black; */
+    /* margin-bottom: 25px; */
+}
 .registerbtn {
     background-color: dodgerblue;
     color: white;
