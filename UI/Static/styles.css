@@ -131,6 +131,39 @@ input[type=text]:focus, input[type=password]:focus {
     opacity: 1;
 }
 
+/* Home page */
+.meetupscontainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+.meetup {
+    /* background:  */
+    width: 250px;
+    height: 370px;
+    overflow: hidden;
+    margin: 20px;
+    padding: 5px;
+    padding-top: 10px;
+}
+.meetup a {
+    text-decoration: none;
+    color: blue;
+}
+.meetup:hover {
+    background-color: white;
+    
+}
+.meetup img {
+    width: 240px;
+    height: 150px;
+    border-radius: 6px;
+}
+.meetupcontent {
+    height: 300px;
+    overflow: hidden;
+    margin: 0;
+}
+/* End of homepage Styling */
 .footer {
     position: fixed;
     left: 0;
@@ -149,5 +182,8 @@ input[type=text]:focus, input[type=password]:focus {
     }
     .topnav-rignt, .header-right {
         float: none;
+    }
+    .meetupscontainer {
+        flex-direction: column;
     }
 }
