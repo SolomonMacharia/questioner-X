@@ -202,8 +202,13 @@ input[type=text]:focus, input[type=password]:focus {
 .askedby a {
     color: black;
 }
+.questionactions {
+    display: flex;
+    flex-wrap: wrap;
+}
 .questionactions a {
     color: black;
+    margin: 30px;
 }
 
 #post-question {
